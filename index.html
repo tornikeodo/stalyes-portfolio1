@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stalyes Portfolio - Spaceship Design</title>
+    <style>
+        body {
+            background-image: url('https://c.tenor.com/vQlBtdRYdxgAAAAC/tenor.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        }
+        .top-left {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+        h2 {
+            margin-top: 30px;
+            font-size: 24px;
+            color: #f0f0f0;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #ddd;
+        }
+        .services {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        }
+        .service-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin-top: 10px;
+        }
+        .service-list li {
+            margin-bottom: 10px;
+        }
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .video {
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+        .bio {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            text-align: left;
+        }
+        .bio h2 {
+            font-size: 24px;
+            color: #f0f0f0;
+            margin-bottom: 10px;
+        }
+        .bio p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-left">Stalyes</div>
+    <div class="container">
+        <h1>Introduction to Stalyes Portfolio</h1>
+        <p>Hello, welcome to my futuristic portfolio! I specialize in Lua scripting, UI designing, and Java scripting. Scroll down to see my work.</p>
+        
+        <div class="services">
+            <h2>Services Offered</h2>
+            <ul class="service-list">
+                <li>Lua Scripting</li>
+                <li>UI Designing</li>
+                <li>Java Scripting</li>
+            </ul>
+        </div>
+
+        <div class="bio">
+            <h2>Bio</h2>
+            <p>
+                Languages spoken:<br>
+                - Georgian (Fluent)<br>
+                - English (Fluent)<br>
+                - Russian (Basic)<br><br>
+                Past work:<br>
+                - PRL<br>
+                - BA<br>
+                - VEF<br>
+                - etc..<br><br>
+                Online username:<br>
+                Stalyes<br><br>
+                Age:<br>
+                16
+            </p>
+        </div>
+
+        <h2>Lua Scripting Showcase</h2>
+        <div class="videos">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
