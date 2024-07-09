@@ -99,6 +99,58 @@
             line-height: 1.6;
             color: #ddd;
         }
+        .ui-design {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+        .ui-design h2 {
+            font-size: 24px;
+            color: #f0f0f0;
+            margin-bottom: 20px;
+        }
+        .ui-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .ui-images img {
+            width: 400px;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .html-showcase {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+        .html-showcase h2 {
+            font-size: 24px;
+            color: #f0f0f0;
+            margin-bottom: 20px;
+        }
+        .html-images {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .html-images img {
+            width: 45%;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
     </style>
 </head>
 <body>
@@ -107,15 +159,6 @@
         <h1>Introduction to Stalyes Portfolio</h1>
         <p>Hello, welcome to my futuristic portfolio! I specialize in Lua scripting, UI designing, and Java scripting. Scroll down to see my work.</p>
         
-        <div class="services">
-            <h2>Services Offered</h2>
-            <ul class="service-list">
-                <li>Lua Scripting</li>
-                <li>UI Designing</li>
-                <li>Java Scripting</li>
-            </ul>
-        </div>
-
         <div class="bio">
             <h2>Bio</h2>
             <p>
@@ -135,21 +178,51 @@
             </p>
         </div>
 
+        <div class="services">
+            <h2>Services Offered</h2>
+            <ul class="service-list">
+                <li>Lua Scripting</li>
+                <li>UI Designing</li>
+                <li>Java Scripting</li>
+            </ul>
+        </div>
+
         <h2>Lua Scripting Showcase</h2>
         <div class="videos">
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/uT8GDMKBmeo" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/1GBhEI9yKRA" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/1ESnKQdgKS8" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/vM0XozeA33I" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
+
+        <div class="ui-design">
+            <h2>UI Design Showcase</h2>
+            <div class="ui-images">
+                <img src="image1.jpg" alt="UI Image 1">
+                <img src="image2.jpg" alt="UI Image 2">
+                <img src="image3.jpg" alt="UI Image 3">
+                <img src="image4.jpg" alt="UI Image 4">
+            </div>
+        </div>
+
+        <div class="html-showcase">
+            <h2>HTML (Website) Showcase</h2>
+            <div class="html-images">
+                <img src="html_image1.jpg" alt="HTML Image 1">
+                <img src="html_image2.jpg" alt="HTML Image 2">
+                <img src="html_image3.jpg" alt="HTML Image 3">
+                <img src="html_image4.jpg" alt="HTML Image 4">
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
